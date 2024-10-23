@@ -1,0 +1,107 @@
+.aboutMainContainer{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.aboutHr{
+    width: 100%;
+    border: 3px solid var(--secondary-color) ;
+    color: var(--secondary-color);
+    border-radius: 3px;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.whoImContainer{
+    width: 40%;
+}
+.whoImText{
+    font-size: 58px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+.whoImDetailText{
+    font-size: 22px;
+    color: var(--font-color);
+}
+
+.aboutVectorDiv{
+    margin: auto;
+}
+.aboutVector{
+    width: 600px;
+}
+
+
+@media all and (max-width: 1160px) {
+    .whoImContainer{
+        width: 60%;
+    }
+    .aboutVector{
+        width: 450px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 1024px){
+    #about{
+        margin-top: 2rem !important;
+        padding-top: 4rem;
+        margin: auto;
+    }
+    .aboutVectorDiv{
+        margin:auto;
+    }
+    .aboutMainContainer{
+        width: 95%;
+    }
+    .whoImText{
+        margin: 0;
+    }
+    .whoImContainer{
+        width: 100%;
+    }
+    .aboutContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+@media all and (max-width: 768px){
+    #about{
+        margin-top: 2rem !important;
+        padding-top: 2rem;
+        margin: auto;
+    }
+    .aboutContainer{
+        /* height: 800px; */
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .aboutVectorDiv{
+        margin:auto;
+    }
+    .aboutVector{
+        width: 340px;
+    }
+    .aboutMainContainer{
+        width: 95%;
+        margin-top: 20px;
+    }
+    .whoImText{
+        margin: 0;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 42px;
+    }
+    .whoImDetailText{
+        font-size: 16px;
+        color: var(--font-color);
+        line-height: 20px;
+    }
+    .whoImContainer{
+        width: 100%;
+    }
+}

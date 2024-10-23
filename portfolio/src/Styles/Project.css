@@ -1,0 +1,117 @@
+#projects{
+    padding-top: 1.5rem;
+}
+.projectMainContainer{
+    width: 95%;
+    margin: auto;
+}
+.projectHeading{
+    text-align: center;
+    font-size: 58px;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+}
+.projectsDiv{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.projectCard{
+    width: 45%;
+    /* padding:10px; */
+    margin: auto;
+    border-radius: 25px;
+    background-color: #41a399a4;
+}
+.projectNameText{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: 900;
+}
+.projectVideo{
+    width: 95%;
+    height: auto;
+    margin:  auto 2.5%;
+    border-radius: 12px;
+}
+.description-techStackDiv{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+.projectDescriptionDiv, .projectTechStackDiv{
+    width: 95%;
+    margin:  auto 2.5%;
+    color: white;
+    background-color: var(--primary-color);
+    /* padding: 5px; */
+    border-radius: 12px;
+}
+.projectTechStackDiv{
+    width: 95%;
+    margin:  auto 2.5% 10px;
+    height: 180px;
+}
+.projectDescriptionDiv>h3,h4, .projectTechStackDiv>h3,h4{
+    text-align: center;
+    color: var(--font-color);
+}
+.projectBtnsDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.projectBtns{
+    width: 100%;
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+    border-radius: 18px;
+    font-weight: 600;
+    background-color: var(--primary-color);
+    color: white;
+    transition: all .5s ease-in-out;
+}
+.projectBtns:hover{
+    border: 2px solid white;
+    color: var(--primary-color);
+    background-color: white;
+    scale: 1.2;
+}
+
+
+@media all and (min-width:768px) and (max-width:1000px) {
+    .projectMainContainer{
+        width: 80%;
+    }
+    .projectsDiv{
+       flex-direction: column;
+       row-gap: 20px;
+    }
+    .projectHeading{
+        font-size: 58px;
+    }
+    .projectCard{
+        width: 95%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .projectMainContainer{
+        width: 90%;
+    }
+    .projectsDiv{
+       flex-direction: column;
+       row-gap: 20px;
+    }
+    .projectHeading{
+        font-size: 42px;
+    }
+    .projectCard{
+        width: 95%;
+    }
+}
