@@ -70,6 +70,7 @@
 .SendBtn{
     width: 100px;
     height: 40px;
+    cursor: pointer;
     background-color: var(--secondary-color);
     border: none;
     border-radius: 30px;
