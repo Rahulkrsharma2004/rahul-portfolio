@@ -3,7 +3,7 @@ import "../Styles/Project.css";
 import myntraImg from "../assets/myntraImage.png";
 import tmetricImg from "../assets/tmetricImage.png";
 import ecomImg from "../assets/ecomImage.png";
-// import AIimage from "../assets/AIimage.PNG";
+import AIimage from "../assets/AIimage.png";
 
 const Project = () => {
   return (
