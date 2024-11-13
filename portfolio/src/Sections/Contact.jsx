@@ -19,13 +19,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData, "on line no. 133 form data")
-    console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID,process.env.REACT_APP_EMAILJS_TEMPLATE_ID,process.env.REACT_APP_EMAILJS_USER_ID,"134 console")
+    console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID,process.env.REACT_APP_EMAILJS_TEMPLATE_ID,process.env.REACT_APP_EMAILJS_PUBLIC_KEY,"134 console")
     emailjs
       .send(
         process.env.REACT_APP_EMAILJS_SERVICE_ID, // Replace with your EmailJS service ID
         process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Replace with your EmailJS template ID
         formData,
-        process.env.REACT_APP_EMAILJS_USER_ID
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
       .then((response) => {
         console.log("Email sent successfully!", response.status, response.text);
