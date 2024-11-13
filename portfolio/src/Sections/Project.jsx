@@ -1,9 +1,5 @@
 import React from "react";
 import "../Styles/Project.css";
-import myntraImg from "../assets/myntraImage.png";
-import tmetricImg from "../assets/tmetricImage.png";
-import ecomImg from "../assets/ecomImage.png";
-import AIimage from "../assets/AIimage.png";
 
 const Project = () => {
   return (
@@ -12,26 +8,30 @@ const Project = () => {
         <h1 className="projectHeading">Projects</h1>
         <div className="projectsDiv">
           <div className="projectCard">
-            <h3 className="projectNameText"> Myntra Clone</h3>
-            <div className="projectImageDiv">
-              <img src={myntraImg} alt="myntraimg" className="projectImage"/>
+            <h3 className="projectNameText">Fiverr Clone</h3>
+            <div className="projectVideoDiv">
+              <video className="projectVideo" autoPlay loop muted>
+                <source src={fiverrProjectVideo} type="video/mp4" />
+              </video>
             </div>
             <div className="description-techStackDiv">
               <div className="projectDescriptionDiv">
                 <h3>Description</h3>
                 <h4>
-                Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products.
+                  The Fiverr website is a globally recognized online marketplace
+                  that connects freelancers with clients who need their
+                  services.
                 </h4>
               </div>
               <div className="projectBtnsDiv">
                 <a
-                  href="https://myntra-project-nu.vercel.app/"
+                  href="https://fiverr-clone-murtaza.netlify.app/"
                   target="_blank"
                 >
                   <button className="projectBtns">Live</button>
                 </a>
                 <a
-                  href="https://github.com/Rahulkrsharma2004/Myntra-Full-App-Clone"
+                  href="https://github.com/Mohd-Murtaza/Fiverr_Backend"
                   target="_blank"
                 >
                   <button className="projectBtns">Github</button>
@@ -40,33 +40,37 @@ const Project = () => {
               <div className="projectTechStackDiv">
                 <h3>Tech-Stack</h3>
                 <h4>
-                  Node.js <br /> Express.js <br /> React <br /> CSS3 <br /> Java
-                  Script <br /> HTML5 <br />
+                  Node.js <br /> Express.js <br /> React <br /> CSS <br /> Java
+                  Script <br /> Chakra UI <br />
                 </h4>
               </div>
             </div>
           </div>
           <div className="projectCard">
-            <h3 className="projectNameText">TMetric Website</h3>
-            <div className="projectImageDiv">
-              <img src={tmetricImg} alt="" className="projectImage"/>
+            <h3 className="projectNameText">Expedia Clone</h3>
+            <div className="projectVideoDiv">
+              <video className="projectVideo" autoPlay loop muted>
+                <source src={expediaProjectVideo} type="video/mp4" />
+              </video>
             </div>
             <div className="description-techStackDiv">
               <div className="projectDescriptionDiv">
                 <h3>Description</h3>
                 <h4>
-                your best business companion for breakthrough results and its time tracking website Powerful time tracker that lets you focus on work that matters.
+                  The Expedia website can be used to book airline tickets, hotel
+                  reservations, car rentals, cruise ships, and vacation
+                  packages.
                 </h4>
               </div>
               <div className="projectBtnsDiv">
                 <a
-                  href="https://rahultmetric.netlify.app/"
+                  href="https://melodious-sundae-7dc4a5.netlify.app/"
                   target="_blank"
                 >
                   <button className="projectBtns">Live</button>
                 </a>
                 <a
-                  href="https://github.com/Rahulkrsharma2004/TMetric-Website-"
+                  href="https://github.com/Mohd-Murtaza/Expedia-Project"
                   target="_blank"
                 >
                   <button className="projectBtns">Github</button>
@@ -75,41 +79,7 @@ const Project = () => {
               <div className="projectTechStackDiv">
                 <h3>Tech-Stack</h3>
                 <h4>
-                  React <br /> CSS <br /> Java Script <br /> Json{" "} <br />Redux
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div className="projectCard">
-            <h3 className="projectNameText">Virtual Assistant</h3>
-            <div className="projectImageDiv">
-              <img src={AIimage} alt="" className="projectImage"/>
-            </div>
-            <div className="description-techStackDiv">
-              <div className="projectDescriptionDiv">
-                <h3>Description</h3>
-                <h4>
-                This is a simple virtual assistant web application. The assistant can respond to various voice commands, perform actions like opening websites.
-                </h4>
-              </div>
-              <div className="projectBtnsDiv">
-                <a
-                  href="https://virtual-assistantrk.vercel.app/"
-                  target="_blank"
-                >
-                  <button className="projectBtns">Live</button>
-                </a>
-                <a
-                  href="https://github.com/Rahulkrsharma2004/Virtual-Assistant"
-                  target="_blank"
-                >
-                  <button className="projectBtns">Github</button>
-                </a>
-              </div>
-              <div className="projectTechStackDiv">
-                <h3>Tech-Stack</h3>
-                <h4>
-                  HTML <br /> CSS <br /> Java Script <br />speech-recognition
+                  React <br /> CSS <br /> Java Script <br /> Json{" "}
                 </h4>
               </div>
             </div>
