@@ -22,6 +22,7 @@ import 'aos/dist/aos.css';
 
 
 const Skills = () => {
+  console.log("object")
   const techs = [
     { img: html, name: "HTML" },
     { img: css, name: "CSS" },
