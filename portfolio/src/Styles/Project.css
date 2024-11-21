@@ -13,12 +13,12 @@
 }
 .projectsDiv{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 }
 .projectCard{
-    width: 45%;
-    /* padding:10px; */
+    width: 30%;
     margin: auto;
     border-radius: 25px;
     background-color: #41a399a4;

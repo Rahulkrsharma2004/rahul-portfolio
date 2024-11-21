@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import MurtazaCV from "../assets/RahulKumar-FullStackWebDev.pdf";
+import rahulresume from "../assets/RahulKumar-FullStackWebDev.pdf";
 import "../Styles/Navbar.css";
 
 const links = [
@@ -22,9 +22,9 @@ const Navbar = () => {
   };
 
   const handleButtonClick = () => {
-    window.open(MurtazaCV, "_blank");
+    window.open(rahulresume, "_blank");
     const link = document.createElement("a");
-    link.href = MurtazaCV;
+    link.href = rahulresume;
     link.download = "RahulKumar-FullStackWebDev.pdf";
     link.click();
   };
