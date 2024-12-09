@@ -22,8 +22,8 @@ const Contact = () => {
     console.log(process.env.REACT_APP_EMAILJS_SERVICE_ID,process.env.REACT_APP_EMAILJS_TEMPLATE_ID,process.env.REACT_APP_EMAILJS_PUBLIC_KEY,"134 console")
     emailjs
       .send(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID, // Replace with your EmailJS service ID
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Replace with your EmailJS template ID
+        process.env.REACT_APP_EMAILJS_SERVICE_ID, 
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, 
         formData,
         process.env.REACT_APP_EMAILJS_PUBLIC_KEY
       )
@@ -103,7 +103,7 @@ const Contact = () => {
               <div className="ccontactText">kumarrahulbasdiha@gmail.com</div>
             </div>
             <div className="contactDetails">
-              <a href="tel:7053371127" target="blank">
+              <a href="tel:8084906496" target="blank">
                 <div className="contactImgDiv">
                   <img
                     className="contactImg"
