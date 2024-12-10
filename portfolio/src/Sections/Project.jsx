@@ -116,8 +116,8 @@ const Project = () => {
                 <h3>Tech-Stack</h3>
                 <h4>
                   Node.js <br /> MongoDB <br /> Express <br /> React <br />
-                  Google-Authentication <br />
-                  Google-Calendar-API
+                  Tailwind css <br />
+                  React-toastify
                 </h4>
               </div>
             </div>
