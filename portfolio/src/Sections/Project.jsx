@@ -159,7 +159,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="projectCard">
+          {/* <div className="projectCard">
             <h3 className="projectNameText">TMetric Website</h3>
             <div className="projectImageDiv">
               <img src={tmetricImg} alt="" className="projectImage" />
@@ -194,7 +194,7 @@ const Project = () => {
                 </h4>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="projectCard">
             <h3 className="projectNameText">E-Commerce Website</h3>
             <div className="projectImageDiv">
