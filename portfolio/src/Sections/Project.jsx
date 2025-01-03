@@ -7,7 +7,7 @@ import infinite from "../assets/infinteimg.PNG";
 // import ecomImg from "../assets/ecomImage.png";
 import AIimage from "../assets/AIimage.png";
 import veg from "../assets/vegandfruit.PNG";
-import veg from "../assets/vegandfruit.PNG";
+import travel from "../assets/t1.PNG";
 
 const Project = () => {
   return (
