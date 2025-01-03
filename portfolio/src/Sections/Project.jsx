@@ -123,6 +123,42 @@ const Project = () => {
             </div>
           </div>
           <div className="projectCard">
+            <h3 className="projectNameText">Veg/Fruit-Order-Platform</h3>
+            <div className="projectImageDiv">
+              <img src={veg} alt="" className="projectImage" />
+            </div>
+            <div className="description-techStackDiv">
+              <div className="projectDescriptionDiv">
+                <h3>Description</h3>
+                <h4>
+                This project is a web application designed to bulk vegetable/fruit orders. Buyers can browse available products, place bulk orders, and track their status, while admins can manage orders.
+                </h4>
+              </div>
+              <div className="projectBtnsDiv">
+                <a
+                  href="https://veg-fruit-order-platform.vercel.app"
+                  target="_blank"
+                >
+                  <button className="projectBtns">Live</button>
+                </a>
+                <a
+                  href="https://github.com/Rahulkrsharma2004/Vegetable-Fruit-Order-Platform"
+                  target="_blank"
+                >
+                  <button className="projectBtns">Github</button>
+                </a>
+              </div>
+              <div className="projectTechStackDiv">
+                <h3>Tech-Stack</h3>
+                <h4>
+                  Node.js <br /> MongoDB <br /> Express <br /> React <br />
+                  Tailwind css <br />
+                  React-toastify
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div className="projectCard">
             <h3 className="projectNameText">Virtual Assistant</h3>
             <div className="projectImageDiv">
               <img src={AIimage} alt="" className="projectImage" />
@@ -232,7 +268,7 @@ const Project = () => {
               </div>
             </div>
           </div> */}
-          <div className="projectCard">
+          {/* <div className="projectCard">
             <h3 className="projectNameText">E-Commerce Website</h3>
             <div className="projectImageDiv">
               <img src={ecomImg} alt="" className="projectImage" />
@@ -268,7 +304,7 @@ const Project = () => {
                 </h4>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
