@@ -1,11 +1,12 @@
 import React from "react";
 import "../Styles/Project.css";
 import myntraImg from "../assets/myntraImage.png";
-import tmetricImg from "../assets/tmetricImage.png";
+// import tmetricImg from "../assets/tmetricImage.png";
 import calendarimg from "../assets/calendarimg.PNG";
 import infinite from "../assets/infinteimg.PNG";
-import ecomImg from "../assets/ecomImage.png";
+// import ecomImg from "../assets/ecomImage.png";
 import AIimage from "../assets/AIimage.png";
+import veg from "../assets/vegandfruit.PNG";
 import veg from "../assets/vegandfruit.PNG";
 
 const Project = () => {
@@ -49,7 +50,7 @@ const Project = () => {
             </div>
           </div>
           <div className="projectCard">
-            <h3 className="projectNameText">Google-Calendar</h3>
+            <h3 className="projectNameText">Google - Calendar</h3>
             <div className="projectImageDiv">
               <img src={calendarimg} alt="" className="projectImage" />
             </div>
@@ -87,26 +88,26 @@ const Project = () => {
             </div>
           </div>
           <div className="projectCard">
-            <h3 className="projectNameText">Veg/Fruit-Order-Platform</h3>
+            <h3 className="projectNameText">Travel - Website</h3>
             <div className="projectImageDiv">
-              <img src={veg} alt="" className="projectImage" />
+              <img src={travel} alt="" className="projectImage" />
             </div>
             <div className="description-techStackDiv">
               <div className="projectDescriptionDiv">
                 <h3>Description</h3>
                 <h4>
-                This project is a web application designed to bulk vegetable/fruit orders. Buyers can browse available products, place bulk orders, and track their status, while admins can manage orders.
+                This project is a fully functional travel website developed . The website allows users to browse, book, and manage trips. Additionally, it includes functionality for trip organizers to register and add trips.
                 </h4>
               </div>
               <div className="projectBtnsDiv">
                 <a
-                  href="https://veg-fruit-order-platform.vercel.app"
+                  href="https://travel-website-rk.vercel.app"
                   target="_blank"
                 >
                   <button className="projectBtns">Live</button>
                 </a>
                 <a
-                  href="https://github.com/Rahulkrsharma2004/Vegetable-Fruit-Order-Platform"
+                  href="https://github.com/Rahulkrsharma2004/Travel-Website"
                   target="_blank"
                 >
                   <button className="projectBtns">Github</button>
@@ -117,7 +118,7 @@ const Project = () => {
                 <h4>
                   Node.js <br /> MongoDB <br /> Express <br /> React <br />
                   Tailwind css <br />
-                  React-toastify
+                  loading-skeleton
                 </h4>
               </div>
             </div>
