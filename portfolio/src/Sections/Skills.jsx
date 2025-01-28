@@ -6,9 +6,9 @@ import js from "../assets/js.svg";
 import dom from "../assets/dom.svg";
 import react from "../assets/react.svg";
 import redux from "../assets/redux.svg";
-import mui from "../assets/material-ui.svg";
+// import mui from "../assets/material-ui.svg";
 import chakraUi from "../assets/chakra-ui.svg";
-import json from "../assets/json.svg";
+// import json from "../assets/json.svg";
 import postman from "../assets/postman.svg";
 import git from "../assets/git.svg";
 import bash from "../assets/bash.svg";
@@ -17,6 +17,8 @@ import nodeJs from "../assets/node-js.svg";
 import npm from "../assets/npm.svg";
 import vite from "../assets/vite.svg";
 import express from "../assets/express.svg";
+import mongodb from "../assets/mongodb.svg";
+import tailwind from "../assets/tailwind.svg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -24,17 +26,17 @@ import 'aos/dist/aos.css';
 const Skills = () => {
   console.log("object")
   const techs = [
-    { img: html, name: "HTML" },
-    { img: css, name: "CSS" },
+    { img: html, name: "HTML5" },
+    { img: css, name: "CSS3" },
     { img: js, name: "JS" },
     { img: dom, name: "DOM" },
     { img: react, name: "React" },
     { img: redux, name: "Redux" },
-    { img: mui, name: "Material UI" },
     { img: chakraUi, name: "Chakra UI" },
-    { img: json, name: "Json" },
     { img: vite, name: "Vite" },
     { img: express, name: "Express" },
+    { img: mongodb, name: "MongoDB" },
+    { img: tailwind, name: "Tailwind" },
   ];
   const tools=[
     { img: postman, name: "Postman" },

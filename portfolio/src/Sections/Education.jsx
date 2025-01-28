@@ -7,14 +7,14 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Education = () => {
-  useEffect(()=>{
-    AOS.init({
-      offset: 200,
-      duration: 800,
-      easing: 'ease-in',
-      delay: 100,
-    });
-  },[])
+  // useEffect(()=>{
+  //   AOS.init({
+  //     offset: 200,
+  //     duration: 800,
+  //     easing: 'ease-in',
+  //     delay: 100,
+  //   });
+  // },[])
   return (
     <section id="education">
       <div className="educationMainContainer">
@@ -22,7 +22,7 @@ const Education = () => {
         <div className="educationContainer">
           <img className="educationVector" src={education} alt="" />
           <div className="educationCardsMainCont">
-            <div data-aos="fade-up">
+            <div >
               <div className="educationCard">
                 <div className="educationCardImgDiv">
                   <img className="schoolsImg" src={masai} alt="" />
@@ -38,7 +38,7 @@ const Education = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up">
+            <div >
               <div className="educationCard">
                 <div className="educationCardImgDiv">
                   <img className="schoolsImg" src={BSEB} alt="" />
@@ -51,7 +51,7 @@ const Education = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up">
+            <div>
               <div className="educationCard">
                 <div className="educationCardImgDiv">
                   <img className="schoolsImg" src={BSEB} alt="" />
